@@ -28,3 +28,7 @@ for i in range(len(shoppingList)):
 
 print(productName)
 print(productPrice)
+
+#=== OUTPUT ===#
+"""['Essential Fairtrade Bananas', 'Waitrose Braeburn Apples', 'Essential Baguette', 'No. 1 Longstock Gold Free Range Eggs', 'Essential Olive Oil']
+['16p', '£1.70', '£1.00', '£2.50', '£5.75']"""
