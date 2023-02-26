@@ -47,61 +47,75 @@ grabfood ---
 <div class="sgdtcontent-detail"><p class="sgdtcontent-text">Spend at least S$50 on your GrabFood order and enjoy <strong>S$10 off</strong> using this above coupon code. Promo code is valid till 31 Mar 2023.</p></div>
 </div>
 </div>
+
+
+lidl ---
+
+
+
+<article id="thread_483765" class="thread cept-thread-item cept-merchant-mode thread--type-list js-voucher-item cept-voucher-widget" data-track="{&quot;category&quot;:&quot;gutscheinsammler_widget&quot;}" data-t="partnerVoucher" data-t-d="{&quot;id&quot;:&quot;483765&quot;,&quot;name&quot;:&quot;voucherbox&quot;,&quot;merchantId&quot;:310}" data-t-view="" data-t-view-twig=""><div class="thread-bodySpace flex js-gutscheinsammler-item thread-clickRoot" data-handler="voucher-button" data-voucher-button="{&quot;id&quot;:&quot;gutscheinsammler_483765&quot;,&quot;url&quot;:null,&quot;isOffer&quot;:false,&quot;offerUrl&quot;:&quot;https://www.hotukdeals.com/visit/vbvoucher/2039/483765&quot;}" data-t="partnerVoucherLink" data-t-click="" tabindex="0" ,="" role="button"><div class="voucherBox-listDiscountCell--responsive bg--color-brandPrimaryPale text--color-charcoal voucherBox-listDiscountCell flex flex--dir-col flex--shrink-0 boxAlign-jc--all-c text--lh-1 bRad--a overflow--hidden box boxAlign-ai--all-c hide--toW3"><span class="flex boxAlign-center text--b cept-voucher-widget-item-discount-small size--all-l  size--fromW3-xxxl ">		
+			£5
+	</span><span class="size--all-xs size--fromW3-s cept-voucher-widget-item-discount-text text--lh-1-2 text--upper text--b hAlign--all-c space--h-1 overflow--wrap-break text--hyphens-a">Discount</span></div><div class="flex flex--dir-col flex--grow-1 width--max-12"><div class="flex--toW3 flex--dir-col"><div class="width--fromW3-7 box--all-i space--fromW3-l-3 space--mb-3 space--fromW3-mb-0"><div class="flex--toW3 boxAlign-ai--all-c boxAlign-ai--all-c"><div class="boxAlign-as--all-fs"><div class="voucherBox-listDiscountCell--responsive bg--color-brandPrimaryPale text--color-charcoal voucherBox-listDiscountCell flex flex--dir-col flex--shrink-0 boxAlign-jc--all-c text--lh-1 bRad--a overflow--hidden box boxAlign-ai--all-c hide--fromW3"><span class="flex boxAlign-center text--b cept-voucher-widget-item-discount-small size--all-l  size--fromW3-xl ">		
+			£5
+	</span><span class="size--all-xs size--fromW3-s cept-voucher-widget-item-discount-text text--lh-1-2 text--upper text--b hAlign--all-c space--h-1 overflow--wrap-break text--hyphens-a">Discount</span></div></div><div class="flex--grow-1 space--l-2 space--fromW3-l-0"><div class="thread-title--list--merchant-v2 size--fromW3-l space--fromW3-r-2 text--b cept-voucher-widget-item-title cept-thread-title--list--merchant js-thread-title">
+		Take £5 off on Orders using Mobile App @ Lidl</div></div></div></div><div class="box--all-i vAlign--all-t width--fromW3-5"><span class="cept-voucher-widget-item-button voucher flex width--all-12 clickable"><span class="forceLayer zIndex--above lbox--v-4 overflow--hidden flex--grow-1 border border--color-brandPrimary bRad--a bRad--circle"><span class="lbox--v-4 boxAlign-ai--all-fs voucher-teaser width--all-12 hAlign--all-r bRad--toW3-t-r bRad--fromW3-l-r"><span class="lbox--v-4 boxAlign-jc--all-c size--all-m aGrid-item aGrid-item--r-0 space--r-2">OOD</span><span class="voucher-cover"></span><span class="voucher-flap"></span><span class="voucher-label aGrid-item lbox--v-4 boxAlign-jc--all-c size--all-m text--color-white text--b"><span class="hide--fromW2">Get code &amp; visit site*</span><span class="hide--toW2 hide--fromW3">Get code &amp; visit site*</span><span class="hide--toW3">Get code &amp; visit site*</span></span></span></span></span></div></div><div class="flex space--mt-a space--t-3 space--fromW3-l-3 space--fromW3-t-0"><div class="js-toggleDates flex boxAlign-ai--all-c flex--width-calc-fix space--mt-n1 text--color-greyShade"><div class="lbox--v-small space--mt-1 space--r-2 text--color-greyShade cept-expires-later"><svg width="17px" height="17px" class="icon icon--clock space--mr-1"><use xlink:href="/assets/img/ico_a8386.svg#clock"></use></svg><span class=" overflow--wrap-off size--all-s size--fromW3-m">Expires in 3 days</span></div><div class="lbox--v-small flex--width-calc-fix space--mt-1"><svg width="22px" height="14px" class="icon icon--trending space--mr-1"><use xlink:href="/assets/img/ico_a8386.svg#trending"></use></svg><span class="overflow--ellipsis size--all-s size--fromW3-m">Last used 4 m ago</span></div></div><span class="thread-noClick clickable space--ml-a text--b text--color-brandPrimary overflow--wrap-off size--all-s" data-handler="toggle" data-toggle="{&quot;events&quot;:[&quot;click&quot;],&quot;toggles&quot;:[{&quot;target&quot;:&quot;.js-voucher-item/.js-voucherDescription, .js-voucher-item/.js-toggleIcon&quot;,&quot;className&quot;:&quot;hide&quot;},{&quot;target&quot;:&quot;.js-voucher-item/.js-toggleDates&quot;,&quot;className&quot;:&quot;flex--wrap&quot;}],&quot;stopPropagation&quot;:true}"><span class="lbox--v-small boxAlign-ai--all-c js-toggleIcon">More info<svg width="10px" height="10px" class="icon icon--down js-toggleIcon space--ml-1 icon-d--1"><use xlink:href="/assets/img/ico_a8386.svg#down"></use></svg></span><span class="lbox--v-small boxAlign-ai--all-c js-toggleIcon hide">Less info<svg width="10px" height="10px" class="icon icon--up js-toggleIcon space--ml-1 hide icon-u--1"><use xlink:href="/assets/img/ico_a8386.svg#up"></use></svg></span></span></div></div></div><div class="js-voucherDescription thread-bodySpace width--all-12 space--t-0 hide"><p class="size--all-s text--lh-1-6"><strong class="text--b space--r-1">Minimum spend:</strong>£25</p><p class="size--all-s text--lh-1-6"><strong class="text--b space--r-1">Conditions:</strong>Some exclusions apply.</p></div></article>
 """
-def promo_code_scraper(soup):
+
+
+def promo_code_scraper():
     """
     The web scraper code is very specific for each individual website, so likely it won't work if you change the
     website link to another one, or the website changes its format subsequently.
     :param soup: the output from beautifulsoup module
     :return: the voucher_df in pandas df format.
     """
+
+    websites = ["https://www.sgdtips.com/grabfood-promo-codes", "https://www.nme.com/discount-codes/waitrose.com"]
+
     voucher_desc_lst = []
     voucher_code_lst = []
     voucher_detail_lst = []
-    for item in soup.select(".promotion-discount-card.promotion-discount-card--condensed.editable.border.w-100"):
-        for voucher in item.select(".promotion-discount-card__main.d-none.d-md-flex"):
-            for voucher_desc in voucher.select('.promotion-discount-card__info__title.title-sm.font-weight-bold'):
-                voucher_desc_lst.append(voucher_desc.text)
-            if not voucher.select('.sgdt_code-value'):
-                voucher_code_lst.append('NA')
-                voucher_detail_lst.append('NA')
-            else:
-                for code in voucher.select('.sgdt_code-value'):
-                    # Here the get method helps to obtain the value filed in the hidden tag (.text is not working..)
-                    voucher_code_lst.append(code.get('value'))
-        for details in item.select(".sgdtpro_content-detail"):
-            if not details.text.replace('\n', ''):
-                voucher_detail_lst.append('NA')
-            else:
-                voucher_detail_lst.append(details.text.replace('\n', ''))
+    link = []
 
+    for website in websites:
+        res = requests.get(website)
+        soup = BeautifulSoup(res.text, "lxml")
 
-    for item in soup.select(".item.procoupon_item--voucher"):
-        for voucher in item.select(".sgdtpro_voucher-content"):
-            for voucher_desc in voucher.select('.sgdt-brief-promo.promo-code-h3'):
-                voucher_desc_lst.append(voucher_desc.text)
-            if not voucher.select('.sgdt_code-value'):
-                voucher_code_lst.append('NA')
-                voucher_detail_lst.append('NA')
-            else:
-                for code in voucher.select('.sgdt_code-value'):
-                    # Here the get method helps to obtain the value filed in the hidden tag (.text is not working..)
-                    voucher_code_lst.append(code.get('value'))
-        for details in item.select(".sgdtpro_content-detail"):
-            if not details.text.replace('\n', ''):
-                voucher_detail_lst.append('NA')
-            else:
-                voucher_detail_lst.append(details.text.replace('\n', ''))
+        for item in soup.select(".promotion-discount-card.promotion-discount-card--condensed.editable.border.w-100"):
+            for voucher in item.select(".promotion-discount-card__main.d-none.d-md-flex"):
+                for voucher_desc in voucher.select('.promotion-discount-card__info__title.title-sm.font-weight-bold'):
+                    voucher_desc_lst.append(voucher_desc.text)
+                if not voucher.select('.sgdt_code-value'):
+                    voucher_code_lst.append('NA')
+                    voucher_detail_lst.append('NA')
+                else:
+                    for code in voucher.select('.sgdt_code-value'):
+                        # Here the get method helps to obtain the value filed in the hidden tag (.text is not working..)
+                        voucher_code_lst.append(code.get('value'))
+            for details in item.select(".sgdtpro_content-detail"):
+                if not details.text.replace('\n', ''):
+                    voucher_detail_lst.append('NA')
+                else:
+                    voucher_detail_lst.append(details.text.replace('\n', ''))
 
-    voucher_df = pd.DataFrame(list(zip(voucher_desc_lst, voucher_code_lst, voucher_detail_lst)),
-                              columns=['Description', 'Code', 'Details'])
+        for item in soup.select(".item.procoupon_item--voucher"):
+            for voucher in item.select(".sgdtpro_voucher-content"):
+                for voucher_desc in voucher.select('.sgdt-brief-promo.promo-code-h3'):
+                    voucher_desc_lst.append(voucher_desc.text)
+                if not voucher.select('.sgdt_code-value'):
+                    voucher_code_lst.append('NA')
+                    voucher_detail_lst.append('NA')
+                else:
+                    for code in voucher.select('.sgdt_code-value'):
+                        # Here the get method helps to obtain the value filed in the hidden tag (.text is not working..)
+                        voucher_code_lst.append(code.get('value'))
+            for details in item.select(".sgdtpro_content-detail"):
+                if not details.text.replace('\n', ''):
+                    voucher_detail_lst.append('NA')
+                else:
+                    voucher_detail_lst.append(details.text.replace('\n', ''))
+
+        link = link + [website for i in range(len(voucher_desc_lst))]
+        voucher_df = pd.DataFrame(list(zip(voucher_desc_lst, voucher_code_lst, voucher_detail_lst, link)),
+                                  columns=['Description', 'Code', 'Details', 'links'])
     return voucher_df
-
-
-websites = ["https://www.sgdtips.com/grabfood-promo-codes", "https://www.nme.com/discount-codes/waitrose.com"]
-for website in websites:
-    res = requests.get(website)
-    soup = BeautifulSoup(res.text, "lxml")
-    code = promo_code_scraper(soup)
-    print(code)
-    print("_____________________________________________")
