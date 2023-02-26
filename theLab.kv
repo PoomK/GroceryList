@@ -1,0 +1,341 @@
+WindowManager:
+    MainWindow:
+    SecondWindow:
+    ThirdWindow:
+
+<MainWindow>:
+    name:"main"
+    orientation: "vertical"
+    spacing:10
+    space_x:self.size[0]/3
+    canvas.before:
+        Color:
+            rgba:(1,1,1,1)
+        Rectangle:
+            size: self.size
+            pos: self.pos
+    BoxLayout:
+        size_hint_y: None
+        height: 50
+        canvas.before:
+            Color:
+                rgba:(.06,.45,.45,1)
+            Rectangle:
+                size: self.size
+                pos: self.pos
+        Label:
+            text: "MoneyBuddy"
+            bold: True
+            size_hint_x: .8
+
+        Button:
+            text: ">"
+            size_hint_x: .2
+            on_release: 
+                app.root.current = "second"
+
+    BoxLayout:
+        id: current
+        size_hint_y: None
+        height: 50
+        canvas.before:
+            Color:
+                rgba: (1,1,1, 1)
+            Rectangle:
+                size: self.size
+                pos: self.pos
+        Button:
+            text: 'Current Budget:'
+            background_normal: ''
+            background_color: (.06, .32, .32, 1)
+            size_hint_x: .4
+        TextInput:
+            size_hint_x: .3
+            id: cur_budget
+            multiline: False
+            hint_text: 'budget'
+            on_text_validate: root.update_budget()
+        Button: 
+            id: cur_price
+            text: ''
+            background_normal: ''
+            background_color: (.06, .65, .65, 1)
+            size_hint_x: .3
+    
+    # BoxLayout:
+    #     id:sp
+    #     size_hint_y: None
+    #     height: 275
+
+    BoxLayout:
+        padding: 10
+        BoxLayout:
+            id: product_details
+            orientation: "vertical"
+            size_hint_x: 1
+            spacing: 10
+
+            BoxLayout:
+                id: product_labels
+                size_hint_y: None
+                height: 40
+                canvas.before:
+                    Color:
+                        rgba: (.06,.45,.45, 1)
+                    Rectangle:
+                        size: self.size
+                        pos: self.pos
+                    
+                FlatButton:
+                    text: 'Product Code'
+                    size_hint_x: .5
+
+                FlatButton:
+                    text: 'Price'
+                    size_hint_x: .5
+
+            BoxLayout:
+                id: product_inputs
+                size_hint_y: None
+                height: 30
+                spacing: 5
+                TextInput:
+                    id: code_inp
+                    size_hint_x: .5
+                    multiline: False
+                TextInput:
+                    id: price_inp
+                    size_hint_x: .5
+            Button:
+                text:"Submit"
+                size_hint_y: None
+                height:30
+                background_color:(.06,.45,.45,1)
+                background_normal: ''
+                on_release: root.update_purchases()
+            BoxLayout:
+                id: add_to_cart
+                orientation: 'vertical'
+                BoxLayout:
+                    size_hint_y: None
+                    height: 30
+                    canvas.before:
+                        Color:
+                            rgba: (.06, .45,.45, 1)
+                        Rectangle:
+                            size: self.size
+                            pos: self.pos
+                    Label:
+                        text: 'Code'
+                        size_hint_x: .5
+                    Label:
+                        text: 'Price'
+                        size_hint_x: .5
+                GridLayout:
+                    id: products
+                    cols: 1
+
+    
+<SecondWindow>:
+    name:"second"
+    orientation: "vertical"
+    spacing:10
+    space_x:self.size[0]/3
+    canvas.before:
+        Color:
+            rgba:(1,1,1,1)
+        Rectangle:
+            size: self.size
+            pos: self.pos
+    BoxLayout:
+        size_hint_y: None
+        height: 50
+        canvas.before:
+            Color:
+                rgba:(.06,.45,.45,1)
+            Rectangle:
+                size: self.size
+                pos: self.pos
+        Label:
+            text: "MoneyBuddy"
+            bold: True
+            size_hint_x: .9 
+
+        Button:
+            text: ">"
+            size_hint_x: .1
+            on_release: 
+                app.root.current = "third"
+    BoxLayout:
+        orientation: 'vertical'
+        canvas.before:
+            Color:
+                # rgba:(.28,.59,.52,1)
+                rgba:(1,1,1,1)
+            Rectangle:
+                size: self.size
+                pos: self.pos
+        
+        BoxLayout:
+            orientation: "vertical"
+            spacing: 10
+            size_hint_y: None
+            height: 80
+            padding: 125,0,0,0
+            TextInput:
+                width: 100
+                id: code_inp
+                size_hint_x: .5
+                multiline: False
+                on_text_validate: root.findCheap()
+            
+            Button:
+                text:"Submit"
+                size_hint_x: .5
+                background_color:(.06,.45,.45,1)
+                background_normal: ''
+                on_release: root.findCheap()
+        # Label:
+        #     id:sp
+        #     size_hint_y: None
+        #     height: 575
+    BoxLayout:
+        padding: 5
+        size_hint_y: None
+        height: 775
+        BoxLayout:
+            id: product_details
+            orientation: "vertical"
+            size_hint_x: 1
+            spacing: 10
+            BoxLayout:
+                id: add_to_cart
+                orientation: 'vertical'
+                BoxLayout:
+                    size_hint_y: None
+                    height: 30
+                    canvas.before:
+                        Color:
+                            rgba: (.06, .45,.45, 1)
+                        Rectangle:
+                            size: self.size
+                            pos: self.pos
+                    Label:
+                        text: 'Comp'
+                        size_hint_x: .2
+                    Label:
+                        text: 'Name'
+                        size_hint_x: .2
+                    Label:
+                        text: 'Product'
+                        size_hint_x: .2
+                    Label:
+                        text: 'Price'
+                        size_hint_x: .2
+                    
+                GridLayout:
+                    id: products
+                    cols: 1
+<ThirdWindow>:
+    name:"third"
+    orientation: "vertical"
+    spacing:10
+    space_x:self.size[0]/3
+    canvas.before:
+        Color:
+            rgba:(1,1,1,1)
+        Rectangle:
+            size: self.size
+            pos: self.pos
+    BoxLayout:
+        size_hint_y: None
+        height: 50
+        canvas.before:
+            Color:
+                rgba:(.06,.45,.45,1)
+            Rectangle:
+                size: self.size
+                pos: self.pos
+        Label:
+            text: "MoneyBuddy"
+            bold: True
+            size_hint_x: .9 
+
+        Button:
+            text: ">"
+            size_hint_x: .1
+            on_release: 
+                app.root.current = "main"
+    BoxLayout:
+        orientation: 'vertical'
+        canvas.before:
+            Color:
+                # rgba:(.28,.59,.52,1)
+                rgba:(1,1,1,1)
+            Rectangle:
+                size: self.size
+                pos: self.pos
+        
+        BoxLayout:
+            orientation: "vertical"
+            spacing: 10
+            size_hint_y: None
+            height: 80
+            padding: 125,0,0,0
+            TextInput:
+                width: 100
+                id: code_inp
+                size_hint_x: .5
+                multiline: False
+                on_text_validate: root.findDiscount()
+            
+            Button:
+                text:"Submit"
+                size_hint_x: .5
+                background_color:(.06,.45,.45,1)
+                background_normal: ''
+                on_release: root.findDiscount()
+        # Label:
+        #     id:sp
+        #     size_hint_y: None
+        #     height: 575
+    BoxLayout:
+        padding: 10
+        size_hint_y: None
+        height: 775
+        BoxLayout:
+            id: product_details
+            orientation: "vertical"
+            size_hint_x: 1
+            spacing: 10
+            BoxLayout:
+                id: add_to_cart
+                orientation: 'vertical'
+                BoxLayout:
+                    size_hint_y: None
+                    height: 30
+                    canvas.before:
+                        Color:
+                            rgba: (.06, .45,.45, 1)
+                        Rectangle:
+                            size: self.size
+                            pos: self.pos
+                    Label:
+                        text: 'Code'
+                        size_hint_x: .1
+                    Label:
+                        text: 'Disc'
+                        size_hint_x: .1
+                    Label:
+                        text: 'Desc'
+                        size_hint_x: .4
+                    Label:
+                        text: 'Link'
+                        size_hint_x: .4
+                GridLayout:
+                    id: products
+                    cols: 1
+
+
+<FlatButton@ButtonBehavior+Label>:
+    font_size: 14
