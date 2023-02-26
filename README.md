@@ -11,6 +11,7 @@ Our app allows user to track their monthly budget, separated into categories suc
 - requests_html
 - BeautifulSoup
 - pandas
+- re(gex)
 
 ### Run the code
 
